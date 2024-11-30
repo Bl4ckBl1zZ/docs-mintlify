@@ -4,30 +4,20 @@ description: "A step-by-step guide about setting up a Server on RestoreCord."
 icon: "server"
 ---
 
+
 <Steps>
   <Step title="Create Server">
-    > Head over to the Dashboard, Servers then click `Create Server`
+  <Card title="Create Server Shortcut" icon="link" color="#2ecc70" href="https://restorecord.com/dashboard/server/new" horizontal="true">
+		Use this shortcut to create a server faster!
+	</Card>
   </Step>
   <Step title="Select Custom Bot">
-    > Select your custom bot.
-    <Frame>
-      <img src="/images/setup_create-server_select-bot.png" />
-    </Frame>
-    >
     <Note>
-        Make sure to close the popup windows after inviting thew bot!
+        You have to close the popup window in order to continue.
     </Note>
   </Step>
 
   <Step title="Select your Discord Server">
-    > After inviting your bot to your server, select the server you want to use RestoreCord.
-    <Frame>
-        <img src="/images/setup_create-server_select-server.png" />
-    </Frame>
-    >
-    <Note>
-        Feel free to change the server name to anything you want, that name will be shown on the verify link.
-    </Note>
   </Step>
   
   <Step title="Fix Permissions">
@@ -37,16 +27,12 @@ icon: "server"
     </Frame>
     >
     <Warning>
-        Make sure that the bot has the Administrator permission, giving your custom bot an Administrator Role does **not** work.
+        You cant give the bot admin role, **you must put the integrated bot role above the verify role.**
     </Warning>
   </Step>
 
   <Step title="Select the verify role">
     > Select the role you want your members to receive after verifying with RestoreCord.
-    <Frame>
-        <img src="/images/setup_create-server_select-role.png" />
-    </Frame>
-    >
     <Note>
         If your roles dont show up then make sure that the integrated bot role is above the verified role. Click the **click here** button on the bottom to refresh the roles list.
     </Note>
